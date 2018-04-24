@@ -95,4 +95,4 @@ stem(x3,K);
 title('Plot of the sum of sqaures of the waves obtained after filtering (I^2 + Q^2');
 figure;
 plot(x3,K1);
-dtr;l342    q4fqwwwwwwfgwwqgggbbgvvggvgbvb title('Plot of log of the sum of sqaures of the waves obtained after filtering log(I^2 + Q^2');
+title('Plot of log of the sum of sqaures of the waves obtained after filtering log(I^2 + Q^2');
