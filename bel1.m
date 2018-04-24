@@ -107,9 +107,7 @@ fn=(60.*(10^(6)));
 fn1= 10.*(10^(6)):(10^(6)):120.*(10^(6))
 n1 = length(fn1);
 %t = 0:0.0000000001:0.000001
-% What we have been doing so far which is wrong ( plot dekho zoom karke curved edges aani chahiye no sharp)
 x1 = 0:0.00000001:1./fn;
-%What we should have done ( see the pure sine wave hamare plot me pure nahi aa rahi bilkul
 y = @(x)sin(2*pi*fn*x);
 y1=y(x1);
 plot(x1,y1);
